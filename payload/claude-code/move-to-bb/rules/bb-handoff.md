@@ -1,0 +1,1 @@
+When Miguel says "move this to bb", "hand off to bb", or "continue this in bb", invoke the `move-to-bb` skill — it writes the context into the repo, commits, and spawns the bb thread; do not improvise the procedure.
