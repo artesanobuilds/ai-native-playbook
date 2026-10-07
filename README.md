@@ -25,7 +25,8 @@ See [START-HERE](START-HERE.md) for commands and [PLAYBOOK](PLAYBOOK.md) for the
 | --- | --- |
 | [Architecture](docs/architecture.md) | How BB, harnesses, models, tools and memory fit together |
 | [Machine snapshot](docs/machine-snapshot.md) | Observed versions, plugins, exceptions and unfinished work |
-| [All models](docs/models.md) | Every catalog entry returned by this machine’s four BB providers |
+| [Models and deduplication](docs/model-count.md) | 137 model choices, mapped back to all 168 catalog entries |
+| [Planned evals](docs/evals.md) | Compare harnesses and model combinations on real problems |
 | [Choosing a harness](docs/harness-routing.md) | Practical task routing, without invented benchmark claims |
 | [Daily workflow](docs/daily-workflow.md) | Scope → build → inspect → review → handoff |
 | [Coding and reviews](docs/coding.md) | Worktrees, independent review, evidence and PRs |
@@ -40,9 +41,13 @@ See [START-HERE](START-HERE.md) for commands and [PLAYBOOK](PLAYBOOK.md) for the
 
 ## Snapshot: 7 October 2026
 
-BB 0.42.1 returned **168 catalog entries** across four harnesses: **Pi 144**, Claude Code 14, Codex 4, Cursor 6. Pi’s entries were 140 OpenRouter routes and four xAI routes. These are selectable catalog entries, not 168 distinct underlying models or 168 successful inference tests. Authentication, quota, balance and provider terms still govern access.
+**I have access to four coding harnesses and 137 model choices in my deduplicated catalog.** Claude Code, Codex, Pi and Cursor give me the freedom to explore different approaches and choose the combination that fits the problem. That freedom is what makes this setup so useful to me.
 
-The installation recipe uses repo-local tools and fresh private state. The actual machine evolved over time and has home-directory CLI installations too; [the snapshot](docs/machine-snapshot.md) records those differences honestly.
+The original 168 menu entries include the same models through multiple harnesses or providers, context-window options, batch/free routes and speed variants. After grouping those overlaps and removing Cursor’s “Auto” selector, the count is **137**. [See the full deduplication and counting rules](docs/model-count.md). This is a count of model choices in the October 7 snapshot, with documented speed variants grouped together; it is not an audit of proprietary model weights or a claim that every route has passed an inference test.
+
+**Coming next: my own evals.** I want to measure which harnesses work best for which problems, and which harness-and-model combinations produce the best results on my actual tasks. Those evaluations are still to be built; the playbook’s routing advice currently reflects workflow experience, not controlled results. [See the eval plan](docs/evals.md).
+
+For rebuilding the tools and private state, see the [machine snapshot](docs/machine-snapshot.md) and [installation playbook](PLAYBOOK.md).
 
 ## Provenance
 

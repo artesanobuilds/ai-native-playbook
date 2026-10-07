@@ -7,6 +7,7 @@ Date: 2026-10-07
 - Public preflight: passed common credential-pattern, private-path and first-party Markdown link checks. Windows fixture paths in the vendored Files plugin were inspected and retained as generic test data.
 - Included video demo: rendered locally using the source machine’s existing Kokoro environment; ffprobe confirms a 1280×720 video stream, an audio stream and 4.565-second duration. Title-card image visually inspected. This validates the example on this host, not fresh dependency installation or end-to-end listening.
 - Live model discovery: four providers, 168 catalog entries, including 144 Pi routes.
+- Model-count audit: 137 choices after removing one selector and 30 duplicate/variant entries. Script verifies input accounting, cross-harness overlaps and preservation of distinct dated releases. See model-count.md for grouping rules.
 - Office fixture privacy check: inspected XML contents and metadata inside the bundled DOCX/PPTX/XLSX files; contents are generic parser fixtures.
 - Manual content review: first-party prose uses generalized examples; raw local transcripts and private agent state are excluded.
 

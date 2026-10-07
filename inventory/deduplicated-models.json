@@ -1,0 +1,1548 @@
+{
+  "snapshot_date": "2026-10-07",
+  "raw_entries": 168,
+  "raw_by_harness": {
+    "codex": 4,
+    "claude-code": 14,
+    "acp-cursor": 6,
+    "pi": 144
+  },
+  "deduplicated_by_harness": {
+    "codex": 4,
+    "claude-code": 11,
+    "acp-cursor": 5,
+    "pi": 121
+  },
+  "model_choices": 137,
+  "excluded_selectors": [
+    {
+      "harness": "acp-cursor",
+      "id": "default",
+      "name": "Auto",
+      "reason": "Auto is a selector, not a model"
+    }
+  ],
+  "duplicate_entries_removed": 30,
+  "groups": [
+    {
+      "model": "claude-fable-5",
+      "entries": [
+        {
+          "harness": "claude-code",
+          "id": "claude-fable-5",
+          "name": "Fable 5"
+        },
+        {
+          "harness": "acp-cursor",
+          "id": "claude-fable-5",
+          "name": "Claude Fable 5"
+        }
+      ]
+    },
+    {
+      "model": "claude-fable-5-1",
+      "entries": [
+        {
+          "harness": "claude-code",
+          "id": "claude-fable-5-1",
+          "name": "Fable 5.1"
+        }
+      ]
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "entries": [
+        {
+          "harness": "claude-code",
+          "id": "claude-haiku-4-5-20251001",
+          "name": "Haiku 4.5"
+        }
+      ]
+    },
+    {
+      "model": "claude-opus-4-6",
+      "entries": [
+        {
+          "harness": "claude-code",
+          "id": "claude-opus-4-6",
+          "name": "Opus 4.6"
+        }
+      ]
+    },
+    {
+      "model": "claude-opus-4-7",
+      "entries": [
+        {
+          "harness": "claude-code",
+          "id": "claude-opus-4-7[1m]",
+          "name": "Opus 4.7 (1M)"
+        },
+        {
+          "harness": "claude-code",
+          "id": "claude-opus-4-7",
+          "name": "Opus 4.7"
+        }
+      ]
+    },
+    {
+      "model": "claude-opus-4-8",
+      "entries": [
+        {
+          "harness": "claude-code",
+          "id": "claude-opus-4-8[1m]",
+          "name": "Opus 4.8 (1M)"
+        },
+        {
+          "harness": "claude-code",
+          "id": "claude-opus-4-8",
+          "name": "Opus 4.8"
+        }
+      ]
+    },
+    {
+      "model": "claude-opus-5",
+      "entries": [
+        {
+          "harness": "claude-code",
+          "id": "claude-opus-5[1m]",
+          "name": "Opus 5 (1M)"
+        },
+        {
+          "harness": "claude-code",
+          "id": "claude-opus-5",
+          "name": "Opus 5"
+        },
+        {
+          "harness": "acp-cursor",
+          "id": "claude-opus-5",
+          "name": "Claude Opus 5"
+        }
+      ]
+    },
+    {
+      "model": "claude-opus-5-5",
+      "entries": [
+        {
+          "harness": "claude-code",
+          "id": "claude-opus-5-5",
+          "name": "Opus 5.5"
+        }
+      ]
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "entries": [
+        {
+          "harness": "claude-code",
+          "id": "claude-sonnet-4-6",
+          "name": "Sonnet 4.6"
+        }
+      ]
+    },
+    {
+      "model": "claude-sonnet-5",
+      "entries": [
+        {
+          "harness": "claude-code",
+          "id": "claude-sonnet-5",
+          "name": "Sonnet 5"
+        }
+      ]
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "entries": [
+        {
+          "harness": "claude-code",
+          "id": "claude-sonnet-5-5",
+          "name": "Sonnet 5.5"
+        }
+      ]
+    },
+    {
+      "model": "composer-2.5",
+      "entries": [
+        {
+          "harness": "acp-cursor",
+          "id": "composer-2.5",
+          "name": "Composer 2.5"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-chat",
+          "name": "DeepSeek: DeepSeek V3"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-chat-v3-0324",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-chat-v3-0324",
+          "name": "DeepSeek: DeepSeek V3 0324"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-chat-v3.1",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-chat-v3.1",
+          "name": "DeepSeek: DeepSeek V3.1"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-r1",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-r1",
+          "name": "DeepSeek: R1"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-r1-0528",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-r1-0528",
+          "name": "DeepSeek: R1 0528"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v3.1-terminus",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-v3.1-terminus",
+          "name": "DeepSeek: DeepSeek V3.1 Terminus"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v3.2",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-v3.2",
+          "name": "DeepSeek: DeepSeek V3.2"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-exp",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-v3.2-exp",
+          "name": "DeepSeek: DeepSeek V3.2 Exp"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-v4-flash",
+          "name": "DeepSeek: DeepSeek V4 Flash 0423"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-v4-flash-0731",
+          "name": "DeepSeek: DeepSeek V4 Flash 0731"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash-vision-exp",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-v4-flash-vision-exp",
+          "name": "DeepSeek: DeepSeek V4 Flash Vision Exp"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-v4-pro",
+          "name": "DeepSeek: DeepSeek V4 Pro 0423"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-v4-pro-0813",
+          "name": "DeepSeek: DeepSeek V4 Pro 0813"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-v4.1-flash",
+          "name": "DeepSeek: DeepSeek V4.1 Flash"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/deepseek/deepseek-v4.1-flash:batch",
+          "name": "DeepSeek: DeepSeek V4.1 Flash (batch)"
+        }
+      ]
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/google/gemma-3-12b-it",
+          "name": "Google: Gemma 3 12B"
+        }
+      ]
+    },
+    {
+      "model": "google/gemma-3-27b-it",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/google/gemma-3-27b-it",
+          "name": "Google: Gemma 3 27B"
+        }
+      ]
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/google/gemma-4-26b-a4b-it",
+          "name": "Google: Gemma 4 26B A4B"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/google/gemma-4-26b-a4b-it:free",
+          "name": "Google: Gemma 4 26B A4B  (free)"
+        }
+      ]
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/google/gemma-4-31b-it",
+          "name": "Google: Gemma 4 31B"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/google/gemma-4-31b-it:free",
+          "name": "Google: Gemma 4 31B (free)"
+        }
+      ]
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "entries": [
+        {
+          "harness": "codex",
+          "id": "gpt-5.6-luna",
+          "name": "GPT-5.6-Luna"
+        }
+      ]
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "entries": [
+        {
+          "harness": "codex",
+          "id": "gpt-5.6-sol",
+          "name": "GPT-5.6-Sol"
+        },
+        {
+          "harness": "acp-cursor",
+          "id": "gpt-5.6-sol",
+          "name": "GPT-5.6 Sol"
+        }
+      ]
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "entries": [
+        {
+          "harness": "codex",
+          "id": "gpt-5.6-terra",
+          "name": "GPT-5.6-Terra"
+        }
+      ]
+    },
+    {
+      "model": "gpt-6-astra",
+      "entries": [
+        {
+          "harness": "codex",
+          "id": "gpt-6-astra",
+          "name": "GPT-6-Astra"
+        }
+      ]
+    },
+    {
+      "model": "grok-4.20",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/x-ai/grok-4.20",
+          "name": "SpaceXAI: Grok 4.20"
+        }
+      ]
+    },
+    {
+      "model": "grok-4.3",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "xai/grok-4.3",
+          "name": "Grok 4.3"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/x-ai/grok-4.3",
+          "name": "SpaceXAI: Grok 4.3"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/x-ai/grok-4.3:batch",
+          "name": "SpaceXAI: Grok 4.3 (batch)"
+        }
+      ]
+    },
+    {
+      "model": "grok-4.5",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "xai/grok-4.5",
+          "name": "Grok 4.5"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/x-ai/grok-4.5",
+          "name": "SpaceXAI: Grok 4.5"
+        }
+      ]
+    },
+    {
+      "model": "grok-4.6",
+      "entries": [
+        {
+          "harness": "acp-cursor",
+          "id": "grok-4.6",
+          "name": "Grok 4.6"
+        },
+        {
+          "harness": "pi",
+          "id": "xai/grok-4.6",
+          "name": "Grok 4.6"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/x-ai/grok-4.6",
+          "name": "SpaceXAI: Grok 4.6"
+        }
+      ]
+    },
+    {
+      "model": "grok-4.7",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "xai/grok-4.7",
+          "name": "Grok 4.7"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/x-ai/grok-4.7",
+          "name": "SpaceXAI: Grok 4.7"
+        }
+      ]
+    },
+    {
+      "model": "grok-build-0.1",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/x-ai/grok-build-0.1",
+          "name": "SpaceXAI: Grok Build 0.1"
+        }
+      ]
+    },
+    {
+      "model": "meta-llama/llama-3.1-70b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/meta-llama/llama-3.1-70b-instruct",
+          "name": "Meta: Llama 3.1 70B Instruct"
+        }
+      ]
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/meta-llama/llama-3.1-8b-instruct",
+          "name": "Meta: Llama 3.1 8B Instruct"
+        }
+      ]
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/meta-llama/llama-3.3-70b-instruct",
+          "name": "Meta: Llama 3.3 70B Instruct"
+        }
+      ]
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/meta-llama/llama-4-maverick",
+          "name": "Meta: Llama 4 Maverick"
+        }
+      ]
+    },
+    {
+      "model": "meta-llama/llama-4-scout",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/meta-llama/llama-4-scout",
+          "name": "Meta: Llama 4 Scout"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/codestral-2508",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/codestral-2508",
+          "name": "Mistral: Codestral 2508"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/codestral-2508:batch",
+          "name": "Mistral: Codestral 2508 (batch)"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/devstral-2512",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/devstral-2512",
+          "name": "Mistral: Devstral 2 2512"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/ministral-14b-2512",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/ministral-14b-2512",
+          "name": "Mistral: Ministral 3 14B 2512"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/ministral-3b-2512",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/ministral-3b-2512",
+          "name": "Mistral: Ministral 3 3B 2512"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/ministral-8b-2512",
+          "name": "Mistral: Ministral 3 8B 2512"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/ministral-8b-2512:batch",
+          "name": "Mistral: Ministral 3 8B 2512 (batch)"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/mistral-large-2407",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-large",
+          "name": "Mistral Large"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-large-2407",
+          "name": "Mistral Large 2407"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/mistral-large-2512",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-large-2512",
+          "name": "Mistral: Mistral Large 3 2512"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-large-2512:batch",
+          "name": "Mistral: Mistral Large 3 2512 (batch)"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/mistral-large-4-0",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-large-4-0",
+          "name": "Mistral: Mistral Large 4"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/mistral-medium-3",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-medium-3",
+          "name": "Mistral: Mistral Medium 3"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/mistral-medium-3-5",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-medium-3-5",
+          "name": "Mistral: Mistral Medium 3.5"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-medium-3-5:batch",
+          "name": "Mistral: Mistral Medium 3.5 (batch)"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/mistral-medium-3.1",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-medium-3.1",
+          "name": "Mistral: Mistral Medium 3.1"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-medium-3.1:batch",
+          "name": "Mistral: Mistral Medium 3.1 (batch)"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/mistral-nemo",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-nemo",
+          "name": "Mistral: Mistral Nemo"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/mistral-saba",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-saba",
+          "name": "Mistral: Saba"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/mistral-small-2603",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-small-2603",
+          "name": "Mistral: Mistral Small 4"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-small-2603:batch",
+          "name": "Mistral: Mistral Small 4 (batch)"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/mistral-small-3.1-24b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-small-3.1-24b-instruct",
+          "name": "Mistral: Mistral Small 3.1 24B"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+          "name": "Mistral: Mistral Small 3.2 24B"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/mixtral-8x22b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/mixtral-8x22b-instruct",
+          "name": "Mistral: Mixtral 8x22B Instruct"
+        }
+      ]
+    },
+    {
+      "model": "mistralai/voxtral-small-24b-2507",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/mistralai/voxtral-small-24b-2507",
+          "name": "Mistral: Voxtral Small 24B 2507"
+        }
+      ]
+    },
+    {
+      "model": "moonshotai/kimi-k2",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/moonshotai/kimi-k2",
+          "name": "MoonshotAI: Kimi K2 0711"
+        }
+      ]
+    },
+    {
+      "model": "moonshotai/kimi-k2-0905",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/moonshotai/kimi-k2-0905",
+          "name": "MoonshotAI: Kimi K2 0905"
+        }
+      ]
+    },
+    {
+      "model": "moonshotai/kimi-k2-thinking",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/moonshotai/kimi-k2-thinking",
+          "name": "MoonshotAI: Kimi K2 Thinking"
+        }
+      ]
+    },
+    {
+      "model": "moonshotai/kimi-k2.5",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/moonshotai/kimi-k2.5",
+          "name": "MoonshotAI: Kimi K2.5"
+        }
+      ]
+    },
+    {
+      "model": "moonshotai/kimi-k2.6",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/moonshotai/kimi-k2.6",
+          "name": "MoonshotAI: Kimi K2.6"
+        }
+      ]
+    },
+    {
+      "model": "moonshotai/kimi-k2.7-code",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/moonshotai/kimi-k2.7-code",
+          "name": "MoonshotAI: Kimi K2.7 Code"
+        }
+      ]
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/moonshotai/kimi-k3",
+          "name": "MoonshotAI: Kimi K3"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/moonshotai/kimi-k3:batch",
+          "name": "MoonshotAI: Kimi K3 (batch)"
+        }
+      ]
+    },
+    {
+      "model": "openai/gpt-oss-120b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/openai/gpt-oss-120b",
+          "name": "OpenAI: gpt-oss-120b"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/openai/gpt-oss-120b:batch",
+          "name": "OpenAI: gpt-oss-120b (batch)"
+        }
+      ]
+    },
+    {
+      "model": "openai/gpt-oss-20b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/openai/gpt-oss-20b",
+          "name": "OpenAI: gpt-oss-20b"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/openai/gpt-oss-20b:batch",
+          "name": "OpenAI: gpt-oss-20b (batch)"
+        }
+      ]
+    },
+    {
+      "model": "openai/gpt-oss-safeguard-20b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/openai/gpt-oss-safeguard-20b",
+          "name": "OpenAI: gpt-oss-safeguard-20b"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen-2.5-72b-instruct",
+          "name": "Qwen2.5 72B Instruct"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen-2.5-7b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen-2.5-7b-instruct",
+          "name": "Qwen: Qwen2.5 7B Instruct"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen-plus",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen-plus",
+          "name": "Qwen: Qwen-Plus"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen-plus-2025-07-28",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen-plus-2025-07-28",
+          "name": "Qwen: Qwen Plus 0728"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-14b",
+          "name": "Qwen: Qwen3 14B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-235b-a22b",
+          "name": "Qwen: Qwen3 235B A22B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-235b-a22b-2507",
+          "name": "Qwen: Qwen3 235B A22B Instruct 2507"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-thinking-2507",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-235b-a22b-thinking-2507",
+          "name": "Qwen: Qwen3 235B A22B Thinking 2507"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-30b-a3b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-30b-a3b",
+          "name": "Qwen: Qwen3 30B A3B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-30b-a3b-instruct-2507",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-30b-a3b-instruct-2507",
+          "name": "Qwen: Qwen3 30B A3B Instruct 2507"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-30b-a3b-thinking-2507",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-30b-a3b-thinking-2507",
+          "name": "Qwen: Qwen3 30B A3B Thinking 2507"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-32b",
+          "name": "Qwen: Qwen3 32B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-8b",
+          "name": "Qwen: Qwen3 8B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-coder",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-coder",
+          "name": "Qwen: Qwen3 Coder 480B A35B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-coder-30b-a3b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-coder-30b-a3b-instruct",
+          "name": "Qwen: Qwen3 Coder 30B A3B Instruct"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-coder-flash",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-coder-flash",
+          "name": "Qwen: Qwen3 Coder Flash"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-coder-next",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-coder-next",
+          "name": "Qwen: Qwen3 Coder Next"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-coder-plus",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-coder-plus",
+          "name": "Qwen: Qwen3 Coder Plus"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-max",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-max",
+          "name": "Qwen: Qwen3 Max"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-max-thinking",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-max-thinking",
+          "name": "Qwen: Qwen3 Max Thinking"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-next-80b-a3b-instruct",
+          "name": "Qwen: Qwen3 Next 80B A3B Instruct"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-next-80b-a3b-thinking",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-next-80b-a3b-thinking",
+          "name": "Qwen: Qwen3 Next 80B A3B Thinking"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-vl-235b-a22b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-vl-235b-a22b-instruct",
+          "name": "Qwen: Qwen3 VL 235B A22B Instruct"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-vl-235b-a22b-thinking",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-vl-235b-a22b-thinking",
+          "name": "Qwen: Qwen3 VL 235B A22B Thinking"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-vl-30b-a3b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-vl-30b-a3b-instruct",
+          "name": "Qwen: Qwen3 VL 30B A3B Instruct"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-vl-30b-a3b-thinking",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-vl-30b-a3b-thinking",
+          "name": "Qwen: Qwen3 VL 30B A3B Thinking"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-vl-32b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-vl-32b-instruct",
+          "name": "Qwen: Qwen3 VL 32B Instruct"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-vl-8b-instruct",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-vl-8b-instruct",
+          "name": "Qwen: Qwen3 VL 8B Instruct"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-vl-8b-thinking",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3-vl-8b-thinking",
+          "name": "Qwen: Qwen3 VL 8B Thinking"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.5-122b-a10b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.5-122b-a10b",
+          "name": "Qwen: Qwen3.5-122B-A10B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.5-27b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.5-27b",
+          "name": "Qwen: Qwen3.5-27B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.5-35b-a3b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.5-35b-a3b",
+          "name": "Qwen: Qwen3.5-35B-A3B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.5-397b-a17b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.5-397b-a17b",
+          "name": "Qwen: Qwen3.5 397B A17B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.5-9b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.5-9b",
+          "name": "Qwen: Qwen3.5-9B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.5-flash-02-23",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.5-flash-02-23",
+          "name": "Qwen: Qwen3.5-Flash"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.5-plus-02-15",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.5-plus-02-15",
+          "name": "Qwen: Qwen3.5 Plus 2026-02-15"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.5-plus-20260420",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.5-plus-20260420",
+          "name": "Qwen: Qwen3.5 Plus 2026-04-20"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.6-27b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.6-27b",
+          "name": "Qwen: Qwen3.6 27B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.6-35b-a3b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.6-35b-a3b",
+          "name": "Qwen: Qwen3.6 35B A3B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.6-flash",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.6-flash",
+          "name": "Qwen: Qwen3.6 Flash"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.6-max-preview",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.6-max-preview",
+          "name": "Qwen: Qwen3.6 Max Preview"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.6-plus",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.6-plus",
+          "name": "Qwen: Qwen3.6 Plus"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.7-flash",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.7-flash",
+          "name": "Qwen: Qwen3.7 Flash"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.7-max",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.7-max",
+          "name": "Qwen: Qwen3.7 Max"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.7-plus",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.7-plus",
+          "name": "Qwen: Qwen3.7 Plus"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.8-2.4t-a95b",
+          "name": "Qwen: Qwen3.8 2.4T A95B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.8-27b",
+          "name": "Qwen: Qwen3.8 27B"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.8-flash",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.8-flash",
+          "name": "Qwen: Qwen3.8 Flash"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.8-max-0902",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.8-max-0902",
+          "name": "Qwen: Qwen3.8 Max (0902)"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.8-max-prime",
+          "name": "Qwen: Qwen3.8 Max Prime"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.8-omni-flash",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/qwen/qwen3.8-omni-flash",
+          "name": "Qwen: Qwen3.8 Omni Flash"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-4.5",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-4.5",
+          "name": "Z.ai: GLM 4.5"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-4.5-air",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-4.5-air",
+          "name": "Z.ai: GLM 4.5 Air"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-4.5v",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-4.5v",
+          "name": "Z.ai: GLM 4.5V"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-4.6",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-4.6",
+          "name": "Z.ai: GLM 4.6"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-4.6v",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-4.6v",
+          "name": "Z.ai: GLM 4.6V"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-4.7",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-4.7",
+          "name": "Z.ai: GLM 4.7"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-4.7-flash",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-4.7-flash",
+          "name": "Z.ai: GLM 4.7 Flash"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-5",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-5",
+          "name": "Z.ai: GLM 5"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-5-turbo",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-5-turbo",
+          "name": "Z.ai: GLM 5 Turbo"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-5.1",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-5.1",
+          "name": "Z.ai: GLM 5.1"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-5.2",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-5.2",
+          "name": "Z.ai: GLM 5.2"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-5.3",
+          "name": "Z.ai: GLM 5.3"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-5.3-prime",
+          "name": "Z.ai: GLM 5.3 Prime"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-5.3:batch",
+          "name": "Z.ai: GLM 5.3 (batch)"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-5.3-flash",
+          "name": "Z.ai: GLM 5.3 Flash"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-5.3-flash:batch",
+          "name": "Z.ai: GLM 5.3 Flash (batch)"
+        },
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-5.3-flashx",
+          "name": "Z.ai: GLM 5.3 FlashX"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-5v-turbo",
+      "entries": [
+        {
+          "harness": "pi",
+          "id": "openrouter/z-ai/glm-5v-turbo",
+          "name": "Z.ai: GLM 5V Turbo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Model catalog — 2026-10-07
 
+**168 raw entries → 137 deduplicated model choices across four harnesses.** See [the count, rules and complete mapping](model-count.md).
+
 Observed through BB 0.42.1 on the source host. Catalog availability only; no paid inference sweep was run. Entries can share underlying models across routes and harnesses. Refresh on the destination machine.
 
 ```bash

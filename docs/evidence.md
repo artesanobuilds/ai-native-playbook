@@ -13,6 +13,7 @@ All files in those two discovered archives were scanned programmatically. Select
 | Claim | Evidence | Limit |
 | --- | --- | --- |
 | Four harnesses exposed by BB | Provider list and per-provider catalogs | Availability is not successful inference |
+| 137 model choices after deduplication | Four saved catalogs, explicit grouping script and public provider descriptions | Counting convention groups speed variants; proprietary weights not audited |
 | Pi exposes 144 entries here | Saved sanitized catalog: 140 OpenRouter, four xAI | Routes, aliases and variants can overlap |
 | Terminal → handoff → BB workflow | Included move-to-bb source and local handoff prompts | Target host still needs working integration |
 | Coding and migration work | Selected local user prompts and handoffs | Generalized; private repository content excluded |

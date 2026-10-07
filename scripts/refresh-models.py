@@ -11,4 +11,4 @@ for provider in ['codex','claude-code','pi','acp-cursor']:
  (args.output/f'{provider}.json').write_text(json.dumps(safe,indent=2)+'\n')
  print(f'{provider}: {len(safe)} catalog entries')
 print('Captured',datetime.datetime.now(datetime.timezone.utc).isoformat())
-print('Review these files and update docs/models.md before publishing. No inference test was run.')
+print('Review these files, rerun scripts/dedupe-models.py and update docs/models.md, docs/model-count.md and the README count before publishing. No inference test was run.')

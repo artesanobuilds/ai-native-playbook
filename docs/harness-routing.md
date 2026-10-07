@@ -21,3 +21,7 @@ Use a small, fast model for bounded extraction or status checks only after confi
 Model names, effort levels and defaults change. Use `bb provider models PROVIDER --environment ENV --json` and choose from that result. The snapshot includes “Auto,” context variants and routed models; these are not all separate underlying models. Do not sum catalog entries into a claim about unique model capability.
 
 The archive does not establish a reliable model-by-model success rate, token-cost comparison or controlled performance comparison. Do not present this routing table as one.
+
+## Planned: measure the combinations
+
+My own evals are still to come. I want to compare harnesses by problem type and test harness-and-model combinations on representative tasks. See [the eval plan](evals.md). The current snapshot contains [137 deduplicated model choices](model-count.md); breadth gives me room to experiment, while evals will help turn that choice into evidence-based routing.
