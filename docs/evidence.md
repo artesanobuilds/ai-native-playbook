@@ -29,6 +29,10 @@ The public repo contains rewritten workflow descriptions, selected distributable
 
 The reference ZIP informed structure and supplied selected source files. Its historical guide, interactive page and raw reference note were not copied into this public repo. Licensed skill and plugin notices are retained.
 
+## Original inspiration
+
+David Ondrej’s [My Agentic Engineering Workflow (after 6,775 sessions)](https://www.youtube.com/watch?v=c9nRxEy1kUY) inspired this setup. The title and source URL were recovered from the corresponding note and README in Miguel’s private Wisdom Vault. The video and its transcript are not redistributed in this repo.
+
 ## Sources for installation drift
 
 - [BB](https://getbb.app/) and the installed `bb guide` / `--help`.

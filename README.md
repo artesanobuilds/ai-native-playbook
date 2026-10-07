@@ -11,6 +11,8 @@ Markdown preserves context, and skills capture repeatable procedures across both
 
 The useful part is the loop: turn a request into an artifact, inspect the result, improve it, and leave enough context for another agent to continue. The artifacts range from tested code and PRs to narrated videos, interactive explainers, documents and daily reports.
 
+**Original inspiration:** David Ondrej’s video, [My Agentic Engineering Workflow (after 6,775 sessions)](https://www.youtube.com/watch?v=c9nRxEy1kUY), is what inspired me to build this setup. This playbook documents how I adapted it to my own machine and workflows.
+
 ## Start here
 
 Clone this repo inside your chosen tools folder, open it with your coding agent, and paste:
@@ -53,4 +55,4 @@ For rebuilding the tools and private state, see the [machine snapshot](docs/mach
 
 Built from a local portable-playbook ZIP, live BB discovery, setup decisions, saved artifact sources, and a scan of the locally accessible Claude Code/Codex transcript archives. Public examples are rewritten summaries. Raw transcripts, private agent memory, employer code, account identifiers and credentials are excluded.
 
-Inspired by David Ondrej’s setup and skills. See [third-party notices](THIRD-PARTY-NOTICES.md). By [Miguel Alvarado / Artesano](https://artesano.build/).
+Inspired by David Ondrej’s [original video](https://www.youtube.com/watch?v=c9nRxEy1kUY) and [skills repository](https://github.com/davidondrej/skills). See [third-party notices](THIRD-PARTY-NOTICES.md). By [Miguel Alvarado / Artesano](https://artesano.build/).

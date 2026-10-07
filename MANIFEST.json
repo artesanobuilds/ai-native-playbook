@@ -3,8 +3,8 @@
   "created": "2026-10-07",
   "sha256": {
     "CLAUDE.md": "1b33d526d5c7f87baf42b2b38ee48a01e49295f7bc9e025ace10cdb0e5721511",
-    "PLAYBOOK.md": "dbc6adef5158bb4db32fd77a151636d39ec7a77712621755637e2037eaf9468e",
-    "START-HERE.md": "77294abfbb8bd8ed36374085ecc0c9d4bb25af3480c18334d89d92d61c74427c",
+    "PLAYBOOK.md": "8a1efa5181550ecf9cd69ee93959531041b4272c116e40adb4f19cc165175b7d",
+    "START-HERE.md": "1716f37c9a5d080052ee78b57bd5b7693833f0b7de06347b198d4be9a5303c71",
     "THIRD-PARTY-NOTICES.md": "d6b6f947acacdac55fecc512adc0fac493cbc0edb075c347bf88bdd38eb31186",
     "bootstrap.py": "a17882e26937cc2f8514186b572326663044d9f1a0a4bf2193ccf5f938c07e7a",
     "payload/.bb/skills/adr-verbatim/SKILL.md": "f6db65b713c8be0c937f91a9a38c7b5bf7f93fe8e75936e6e46dbb5b2e59c21c",

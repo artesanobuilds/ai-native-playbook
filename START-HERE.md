@@ -1,5 +1,7 @@
 # Rebuild the setup
 
+For the inspiration behind this setup, watch David Ondrej’s [My Agentic Engineering Workflow (after 6,775 sessions)](https://www.youtube.com/watch?v=c9nRxEy1kUY). Then follow this guide to build your own version.
+
 ## 1. Get the playbook
 
 ```bash

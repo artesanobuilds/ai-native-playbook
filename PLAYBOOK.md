@@ -2,6 +2,10 @@
 
 Updated 2026-10-07. Start with START-HERE.md. This is the rebuildable setup, with source files and fresh state; credentials, conversations, machine IDs, node_modules and home-directory settings are excluded.
 
+## Original inspiration
+
+This setup began with David Ondrej’s [My Agentic Engineering Workflow (after 6,775 sessions)](https://www.youtube.com/watch?v=c9nRxEy1kUY). Watch it for the reasoning behind the agent workspace, harness choices, skills and persistent context. The steps below describe my adaptation; use the current installation instructions and machine snapshot when rebuilding it.
+
 ## 1. Preflight and installation
 
 Supported bootstrap: macOS or Linux (Windows via WSL2). Detect OS and CPU architecture first. Check Python 3.9+, Git, bash, jq, Node and npm. BB's bundled version requires Node 22.19+ in the 22 series, 24.x or 26.x; use 24 LTS if installing afresh. Native npm dependencies may need Xcode command-line tools on macOS or a C/C++ build toolchain and Python on Linux. Install these only if missing. Prefer official platform archives under `tools/` for Node and jq; verify upstream checksums. Use the platform's documented system toolchain installation when necessary and record that exception. Do not blindly run a package-manager recipe for a different OS.
