@@ -1,5 +1,9 @@
 # The agent team
 
+This team exists to help take care of your tasks: keep track of commitments, surface what needs attention, handle authorized routine work and follow through over time. Each agent owns a responsibility and retains the context needed to carry it out.
+
+[BB’s role](architecture.md) is to give you access to a wide diversity of coding agents and models. The specialist team is an application of agent capabilities to ongoing task management; BB lets you choose among harnesses and models for many kinds of work.
+
 The source setup includes a personal assistant named **William**, a mail-triage worker called **maileman**, lightweight reporters, and a separate work-context chief-of-staff agent. These are roles with different tools, data and action scopes.
 
 ```mermaid

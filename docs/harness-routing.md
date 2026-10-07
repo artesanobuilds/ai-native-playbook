@@ -1,5 +1,7 @@
 # Choosing a harness and model
 
+BB brings a wide diversity of agents and models into one workspace. Its value is being able to tap into that range and choose what fits the task. William and the specialist team have a complementary purpose: taking care of ongoing responsibilities through defined roles and follow-through.
+
 Start with the task’s tools, context and permission needs. Then choose a model exposed by that harness on that host. This is a practical routing guide derived from local usage and available integrations, not a benchmark ranking.
 
 | Task | Starting point | Why / completion evidence |

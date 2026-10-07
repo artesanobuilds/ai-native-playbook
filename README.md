@@ -2,7 +2,12 @@
 
 **Give your coding agent this repo and build your own agent workspace.**
 
-This is Miguel Alvarado’s working setup: BB as the control room; Claude Code, Codex, Pi and Cursor as harnesses; Markdown for durable context; skills for repeatable procedures; and small specialist agents for ongoing work.
+This is Miguel Alvarado’s working setup, with two complementary purposes:
+
+- **BB gives you access to a wide diversity of coding agents and models.** Claude Code, Codex, Pi and Cursor bring different model catalogs and tool capabilities into one workspace, so you can choose what fits the task.
+- **William and the specialist agents help take care of your tasks.** They handle recurring responsibilities such as mail triage, reminders, reporting and follow-through, using persistent context and clearly scoped actions.
+
+Markdown preserves context, and skills capture repeatable procedures across both parts of the setup.
 
 The useful part is the loop: turn a request into an artifact, inspect the result, improve it, and leave enough context for another agent to continue. The artifacts range from tested code and PRs to narrated videos, interactive explainers, documents and daily reports.
 

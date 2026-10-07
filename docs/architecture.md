@@ -1,5 +1,7 @@
 # Architecture
 
+The setup serves two complementary purposes. **BB provides access to a wide diversity of agents and models**, letting you choose a harness and model for the work at hand. **William and the specialist team help take care of ongoing tasks**, with roles for triage, reminders, reporting and follow-through. The [agent-team guide](agent-team.md) describes those responsibilities; the diagram below shows BB’s harness and model access.
+
 A model produces reasoning and text. A harness gives it a task loop, tools, context and permissions. BB organizes harness sessions across projects and environments. An integration provides a capability such as browsing, image generation or reading an authorized mailbox. Choosing a text model alone does not install those capabilities.
 
 ```mermaid
