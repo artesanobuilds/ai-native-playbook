@@ -15,7 +15,7 @@ The useful part is the loop: turn a request into an artifact, inspect the result
 
 ## Listen to the walkthrough
 
-[Play the 2-minute MP3](https://raw.githubusercontent.com/artesanobuilds/ai-native-playbook/main/media/my-bb-setup.mp3) from my short-form setup video, or read [the transcript and recording notes](media/README.md). The updated narration covers 137 deduplicated model choices, migration, customization, Tailscale, and planned evals.
+[Play the 2-minute MP3](https://raw.githubusercontent.com/artesanobuilds/ai-native-playbook/8999266404ef506a7c7398a0b105562545659db6/media/my-bb-setup.mp3) from my short-form setup video, or read [the transcript and recording notes](media/README.md). The updated narration covers 137 deduplicated model choices, migration, customization, Tailscale, and planned evals.
 
 ## Start here
 

@@ -18,3 +18,5 @@ The first guard run failed because ZIP extraction had not preserved executable b
 Not performed: a clean-machine package installation, new account logins, inference against every catalog model, per-harness runtime guard invocation, a full re-render of historical videos, remote-client download testing, or Herdr/VPS deployment. These remain destination-machine checks in the setup report.
 
 The previous recording was verified by anonymous download before this revision. Delivery verification for the revised artifact is recorded below.
+
+Updated MP3 fetched anonymously from its commit-pinned URL: 200 audio/mpeg, 2,397,359 bytes, SHA-256 `0c24c855d5c3d74a69580270e0cbd6968db7c2e1eff12363bc125bd4348ff2e9`, matching the local file. Full MP3 and both updated MP4 decodes passed. Both storyboards and sampled encoded frames were visually inspected.

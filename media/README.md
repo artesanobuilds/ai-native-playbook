@@ -1,6 +1,6 @@
 # Listen to the setup walkthrough
 
-[Open the MP3](https://raw.githubusercontent.com/artesanobuilds/ai-native-playbook/main/media/my-bb-setup.mp3) · [MP3 in the repo](my-bb-setup.mp3) · [Transcript](transcript.md)
+[Open the MP3](https://raw.githubusercontent.com/artesanobuilds/ai-native-playbook/8999266404ef506a7c7398a0b105562545659db6/media/my-bb-setup.mp3) · [MP3 in the repo](my-bb-setup.mp3) · [Transcript](transcript.md)
 
 **Approximately 2 minutes.** Updated narration for the vertical and horizontal setup videos. It covers the four harnesses, 137 deduplicated model choices, everyday work, William and Mika, shared files and handoffs, the migration skill, custom plugins, Tailscale, and planned evaluations.
 
