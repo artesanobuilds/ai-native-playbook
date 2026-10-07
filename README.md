@@ -13,6 +13,10 @@ The useful part is the loop: turn a request into an artifact, inspect the result
 
 **Original inspiration:** David Ondrej’s video, [My Agentic Engineering Workflow (after 6,775 sessions)](https://www.youtube.com/watch?v=c9nRxEy1kUY), is what inspired me to build this setup. This playbook documents how I adapted it to my own machine and workflows.
 
+## Listen to the walkthrough
+
+[Play the 2-minute MP3](https://raw.githubusercontent.com/artesanobuilds/ai-native-playbook/main/media/my-bb-setup.mp3) from my short-form setup video, or read [the transcript and recording notes](media/README.md). The original narration uses an older raw model tally and simplified setup claims; the notes explain the corrections. The current audited catalog has 137 model choices.
+
 ## Start here
 
 Clone this repo inside your chosen tools folder, open it with your coding agent, and paste:
@@ -45,6 +49,7 @@ See [START-HERE](START-HERE.md) for commands and [PLAYBOOK](PLAYBOOK.md) for the
 | [The agent team](docs/agent-team.md) | William, mail triage, reporters and work-context separation |
 | [Skills and instructions](docs/skills.md) | What to put in a skill, AGENTS.md, ADR or handoff |
 | [Guardrails and privacy](docs/security.md) | Credentials, permissions, publication and outbound actions |
+| [My Tailscale setup](docs/tailscale.md) | Reproduce private browser access from another Mac or phone |
 | [Remote access and recovery](docs/operations.md) | Downloads, laptop sleep, schedules and optional VPS |
 | [Evidence and limitations](docs/evidence.md) | What was inspected and what has not been verified |
 | [Templates](templates/README.md) | Copyable task briefs, handoffs and agent contracts |

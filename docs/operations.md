@@ -8,7 +8,9 @@ For an important binary deliverable, check the actual browser-facing response: s
 
 ## Existing connection before new infrastructure
 
-The source BB has its Remote access plugin running. Use its supported authenticated pairing workflow. A private network such as Tailscale is an optional alternative where already configured. Do not expose the filesystem or start a per-file public server just to share one artifact.
+The original setup uses Tailscale Serve on HTTP port 8080, forwarding to BB on loopback port 38886. See [the step-by-step Tailscale guide](tailscale.md), based on the setup notes and live configuration.
+
+The source BB also has its Remote access plugin running. Use its supported authenticated pairing workflow. Tailscale and BB Connect are separate access paths; use the actual origin for the one you choose. Do not expose the filesystem or start a per-file public server just to share one artifact.
 
 Keep awake can help a plugged-in laptop remain available. It does not turn a sleeping or powered-off computer into an always-on server. Remote access and remote computation are different capabilities.
 

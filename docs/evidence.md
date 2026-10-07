@@ -23,6 +23,7 @@ All files in those two discovered archives were scanned programmatically. Select
 | Visual output needs real inspection | Prompts reporting a video with audio but missing images | Historical correction, not a measured failure rate |
 | Research becomes MD plus HTML | Explicit local knowledge-library requests | No claim that every source was fully verified |
 | William and collaborators use persistent reports | Local agent definitions and selected history | Current scheduler health was not audited |
+| Tailscale private BB access | Original bootstrap notes plus read-only live Serve inspection: HTTP 8080 → loopback 38886, Funnel disabled | Host-side HTTP checks passed; second-device browser not retested |
 | Herdr / VPS are planned | Setup roadmap; no local CLI found in inspected PATH | Does not rule out installation elsewhere |
 
 ## Privacy method

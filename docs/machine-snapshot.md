@@ -10,6 +10,7 @@ Captured 2026-10-07 on the local macOS host. This records the source machine; th
 | Pi | 1.0.4; root-local wrapper and `pi/agent` state | Fresh recipe uses `state/pi`; all launchers must agree |
 | Cursor | 2026.01.28-fd13201; existing home-directory install | Preserve it or follow current supported install procedure |
 | Node | v22.15.0 | Below Pi’s documented 22.19 minimum; do not reproduce this mismatch |
+| Tailscale | 1.102.3; Serve HTTP 8080 proxies `/` to loopback 38886; Funnel disabled | Follow [the Tailscale guide](tailscale.md) with your own tailnet |
 | FFmpeg | Present on PATH outside the tool root | For a new machine, install deliberately and record location |
 | Kokoro | Local helper, model files and venv under `tts/` | Rebuild a healthy Python venv; fetch model weights separately |
 | Herdr / Ghostty | No CLI found on PATH; no Ghostty app found in `/Applications` | No proof of installation elsewhere; treat as optional/unverified |

@@ -6,6 +6,8 @@ Date: 2026-10-07
 - Shell guard regression suite: 302 passed, zero failed.
 - Public preflight: passed common credential-pattern, private-path and first-party Markdown link checks. Windows fixture paths in the vendored Files plugin were inspected and retained as generic test data.
 - Included video demo: rendered locally using the source machine’s existing Kokoro environment; ffprobe confirms a 1280×720 video stream, an audio stream and 4.565-second duration. Title-card image visually inspected. This validates the example on this host, not fresh dependency installation or end-to-end listening.
+- Tailscale documentation: live configuration inspected read-only; local BB and existing Serve hostname both returned HTTP 200 from the host. No route changes or second-device browser test.
+- Published walkthrough MP3: audio extracted from the existing short-form MP4, source metadata stripped, 136.392 seconds, stereo 48 kHz. FFmpeg decoded the entire MP3 without errors. Historical narration corrections are documented alongside the audio.
 - Live model discovery: four providers, 168 catalog entries, including 144 Pi routes.
 - Model-count audit: 137 choices after removing one selector and 30 duplicate/variant entries. Script verifies input accounting, cross-harness overlaps and preservation of distinct dated releases. See model-count.md for grouping rules.
 - Office fixture privacy check: inspected XML contents and metadata inside the bundled DOCX/PPTX/XLSX files; contents are generic parser fixtures.

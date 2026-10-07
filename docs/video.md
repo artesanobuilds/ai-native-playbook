@@ -4,6 +4,8 @@ The coding harness acts as a producer and tool operator. It writes scripts, prep
 
 ## Observed examples
 
+The [short-form walkthrough MP3 and transcript](../media/README.md) are included for readers who want to listen. The original narration is preserved with corrections alongside it.
+
 The source workspace contains a 16:9 explanation of the BB architecture and a vertical two-minute setup video, with narration Markdown, Python render scripts, timing JSON, captions and MP4 outputs. Local transcripts also show a community-awareness video evolving from storyline and planning documents into a synthetic preview, followed by corrections to missing imagery and wording.
 
 Those source projects are evidence of the workflow; private branding, correspondence and media are not included here. The small [video example](../examples/video/README.md) gives a reproducible starting point.
