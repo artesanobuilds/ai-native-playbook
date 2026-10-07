@@ -1,0 +1,139 @@
+# Local AI Native download extension
+
+Based on abdoutelb/bb-plugin-files-editor 0.1.3, cached commit
+99532196c3af37ebee2a5066f0639f026cf20ca6. Original MIT license retained.
+Installed separately as `files-downloads`; the original `files-editor` remains
+installed but disabled, preserving its settings. Upstream updates must be merged
+manually into this local copy.
+
+Changes: Download on every saved file in Files; archive/binary file openers;
+`bb files download-link <workspace-relative-path>`; same-origin attachment HTTP
+route using BB's owning-host file API and root confinement. No new public port,
+no new filesystem root or anonymous HTTP auth mode. BB's configured access boundary
+still governs access (private Tailscale or authenticated BB Connect).
+
+The route buffers bytes through BB's file API; transport/memory limits still apply.
+It is not a resumable large-file streaming server. Unsaved drafts aren't included.
+Preview format support is unchanged. Missing/offline/forbidden files fail visibly.
+
+Build: `BB_DATA_DIR=../../bb/data bb plugin build` (use an absolute data path when
+running outside this folder). Install the local folder with `bb plugin install`.
+Rollback: disable `files-downloads`, then enable `files-editor`. This retains both
+plugins' settings and does not delete files. Re-enable both only after resolving
+their shared `bb files` CLI command and duplicate sidebar entries.
+
+---
+
+# bb-plugin-files-downloads
+
+A file explorer and editor for the workspace behind a bb thread, laid out the
+way an editor is: a searchable tree on the left, tabs across the top, and the
+whole file in the middle.
+
+![The Files panel: project and worktree pickers over a file tree, tabs, find-in-file, and the open file](https://raw.githubusercontent.com/abdoutelb/bb-plugin-files-downloads/main/docs/preview.png)
+
+*An illustration of the layout, not a screenshot — drawn from `docs/preview.html`
+with invented project data, so no real repository or thread titles appear in it.*
+
+## What it gives you
+
+- **A Files page** in the sidebar (`/plugins/files-downloads/files`) with a
+  workspace picker covering every project checkout and every thread worktree.
+- **A Files tab beside a thread** — right panel → new tab → *Project files*.
+  Pinned to that thread's workspace, so it shows the files the agent in that
+  conversation is editing.
+- **Two searches.** At the top of the tree, type to prune it to matching paths
+  with every directory above them opened; <kbd>⌘P</kbd> opens the ranked
+  go-to-file palette instead. Inside a file, the magnifier in the toolbar (or
+  <kbd>⌘F</kbd>) finds text: match count, <kbd>Enter</kbd> / <kbd>⇧Enter</kbd>
+  to step, `Aa` for case, and the hit is revealed whether you are reading or
+  editing.
+- **Project, then workspace.** Two dependent pickers — choose the project, then
+  its checkout or one of its worktrees by branch name. Picking a project lands
+  on its checkout.
+- **Click a file and it opens in full** — its own tab, the complete contents,
+  syntax-highlighted by BB's own source renderer, in your BB code theme.
+- **Edit and save.** A Read / Edit toggle switches the pane to an editor;
+  <kbd>⌘S</kbd> writes. Saves are guarded by the hash the file had when you
+  opened it, so if an agent edited it underneath you the save stops and offers
+  *Reload* or *Overwrite* rather than clobbering the change.
+- **Images render**, other binaries say so instead of dumping bytes.
+- **`bb files`** gives an agent the same listing from the CLI.
+
+## Dotfiles
+
+BB's own recursive listing drops every name starting with `.`, which is why
+`.github`, `.env.example`, and `.gitignore` are missing from other file trees in
+the app. For a workspace on the machine BB's server runs on, this plugin walks
+the directory itself and shows them; the eye toggle in the explorer turns them
+off.
+
+A workspace on a *connected* machine has to go through BB's listing, so dotfiles
+are not available there and the toggle is hidden. The explorer says which mode
+it is in.
+
+## The CLI
+
+```
+bb files root                 # where the workspace is, and on which machine
+bb files tree [--depth n] [--all] [--limit n]
+bb files find <query> [--limit n]
+bb files read <path>
+```
+
+Everything resolves against the thread the command runs in: its worktree when it
+has one, otherwise the project's default checkout. It reads through BB, so it
+returns the right bytes even when that workspace lives on another machine —
+which is exactly when `ls` and `cat` would quietly read the wrong disk.
+
+## Settings
+
+**Excluded directories** — one name per line, matched against any path segment.
+Defaults to `.git`, `node_modules`, and `vendor` — the three dependency trees
+big enough to truncate a listing on their own. Remove one to browse it, or add
+`dist`, `.venv`, `target`. Applies to the tree, the palette, and the CLI.
+
+## Install
+
+```sh
+bb plugin install git:https://github.com/abdoutelb/bb-plugin-files-editor.git@^0.1.2
+```
+
+That tracks the 0.x line, so `bb plugin outdated` and `bb plugin update` pick up
+later releases. To work on it locally instead, clone it and install the path:
+
+```sh
+bb plugin install /path/to/bb-plugin-files-downloads
+```
+
+## Development
+
+```sh
+npm install --include=dev
+npm test                              # pure logic: trees, ranking, find, paths
+npm run typecheck
+bb plugin dev                         # rebuild + reload on save
+```
+
+`lib/` holds the logic worth testing on its own — tree assembly, the fuzzy
+ranker, in-file search, workspace grouping, workspace-relative path resolution,
+route encoding. `server.ts` is mostly wiring; the components are the view.
+
+## Limits
+
+- The local walk stops at 40,000 entries and BB's remote listing at 10,000, and
+  the explorer mounts at most 600 rows at a time. The footer says when either
+  limit is in play; widening *Excluded directories* is the fix for a truncated
+  listing.
+- Every `bb files` command is capped by BB's 1 MB limit on a command's output.
+  Past that it prints what fits — whole lines, for a listing — and says how much
+  it cut. BB discards an oversize result rather than truncating it, so the
+  clipping is the difference between a partial answer and none.
+- The editor is a textarea with a gutter, not a code editor: no completion and
+  no multiple cursors, and find is literal text — no regex, no replace. For
+  those, BB's builtin **File Editor** (Monaco) plugin claims the file-preview
+  surface; the ↗ button in the toolbar hands it the current file.
+- Reading, a find hit highlights its whole line, because line ranges are what
+  BB's source viewer accepts. Editing selects the exact match.
+- Files over 4 MB open read-only.
+- The tree does not create, rename, or delete files.

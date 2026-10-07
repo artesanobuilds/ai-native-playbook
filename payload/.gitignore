@@ -1,0 +1,11 @@
+**/node_modules/
+bb/data/
+state/
+.cache/
+tools/
+.env*
+**/.env*
+**/dist/
+*.log
+SETUP-REPORT.md
+**/__pycache__/

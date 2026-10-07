@@ -1,0 +1,2874 @@
+[
+  {
+    "id": "xai/grok-4.3",
+    "displayName": "Grok 4.3",
+    "routeProviderId": "xai",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "xai/grok-4.5",
+    "displayName": "Grok 4.5",
+    "routeProviderId": "xai",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "xai/grok-4.6",
+    "displayName": "Grok 4.6",
+    "routeProviderId": "xai",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "xai/grok-4.7",
+    "displayName": "Grok 4.7",
+    "routeProviderId": "xai",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.20",
+    "displayName": "SpaceXAI: Grok 4.20",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.3",
+    "displayName": "SpaceXAI: Grok 4.3",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.3:batch",
+    "displayName": "SpaceXAI: Grok 4.3 (batch)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.5",
+    "displayName": "SpaceXAI: Grok 4.5",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.6",
+    "displayName": "SpaceXAI: Grok 4.6",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.7",
+    "displayName": "SpaceXAI: Grok 4.7",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/x-ai/grok-build-0.1",
+    "displayName": "SpaceXAI: Grok Build 0.1",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-chat",
+    "displayName": "DeepSeek: DeepSeek V3",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": true
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-chat-v3-0324",
+    "displayName": "DeepSeek: DeepSeek V3 0324",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-chat-v3.1",
+    "displayName": "DeepSeek: DeepSeek V3.1",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-r1",
+    "displayName": "DeepSeek: R1",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-r1-0528",
+    "displayName": "DeepSeek: R1 0528",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v3.1-terminus",
+    "displayName": "DeepSeek: DeepSeek V3.1 Terminus",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v3.2",
+    "displayName": "DeepSeek: DeepSeek V3.2",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v3.2-exp",
+    "displayName": "DeepSeek: DeepSeek V3.2 Exp",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-flash",
+    "displayName": "DeepSeek: DeepSeek V4 Flash 0423",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-flash-0731",
+    "displayName": "DeepSeek: DeepSeek V4 Flash 0731",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-flash-vision-exp",
+    "displayName": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-pro",
+    "displayName": "DeepSeek: DeepSeek V4 Pro 0423",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-pro-0813",
+    "displayName": "DeepSeek: DeepSeek V4 Pro 0813",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4.1-flash",
+    "displayName": "DeepSeek: DeepSeek V4.1 Flash",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4.1-flash:batch",
+    "displayName": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k2",
+    "displayName": "MoonshotAI: Kimi K2 0711",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k2-0905",
+    "displayName": "MoonshotAI: Kimi K2 0905",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k2-thinking",
+    "displayName": "MoonshotAI: Kimi K2 Thinking",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k2.5",
+    "displayName": "MoonshotAI: Kimi K2.5",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k2.6",
+    "displayName": "MoonshotAI: Kimi K2.6",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k2.7-code",
+    "displayName": "MoonshotAI: Kimi K2.7 Code",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k3",
+    "displayName": "MoonshotAI: Kimi K3",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k3:batch",
+    "displayName": "MoonshotAI: Kimi K3 (batch)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.5",
+    "displayName": "Z.ai: GLM 4.5",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.5-air",
+    "displayName": "Z.ai: GLM 4.5 Air",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.5v",
+    "displayName": "Z.ai: GLM 4.5V",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.6",
+    "displayName": "Z.ai: GLM 4.6",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.6v",
+    "displayName": "Z.ai: GLM 4.6V",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.7",
+    "displayName": "Z.ai: GLM 4.7",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.7-flash",
+    "displayName": "Z.ai: GLM 4.7 Flash",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-5",
+    "displayName": "Z.ai: GLM 5",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-5-turbo",
+    "displayName": "Z.ai: GLM 5 Turbo",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.1",
+    "displayName": "Z.ai: GLM 5.1",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.2",
+    "displayName": "Z.ai: GLM 5.2",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.3",
+    "displayName": "Z.ai: GLM 5.3",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.3-flash",
+    "displayName": "Z.ai: GLM 5.3 Flash",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.3-flash:batch",
+    "displayName": "Z.ai: GLM 5.3 Flash (batch)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.3-flashx",
+    "displayName": "Z.ai: GLM 5.3 FlashX",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.3-prime",
+    "displayName": "Z.ai: GLM 5.3 Prime",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.3:batch",
+    "displayName": "Z.ai: GLM 5.3 (batch)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/z-ai/glm-5v-turbo",
+    "displayName": "Z.ai: GLM 5V Turbo",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen-2.5-72b-instruct",
+    "displayName": "Qwen2.5 72B Instruct",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen-2.5-7b-instruct",
+    "displayName": "Qwen: Qwen2.5 7B Instruct",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen-plus",
+    "displayName": "Qwen: Qwen-Plus",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen-plus-2025-07-28",
+    "displayName": "Qwen: Qwen Plus 0728",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-14b",
+    "displayName": "Qwen: Qwen3 14B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-235b-a22b",
+    "displayName": "Qwen: Qwen3 235B A22B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-235b-a22b-2507",
+    "displayName": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-235b-a22b-thinking-2507",
+    "displayName": "Qwen: Qwen3 235B A22B Thinking 2507",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-30b-a3b",
+    "displayName": "Qwen: Qwen3 30B A3B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-30b-a3b-instruct-2507",
+    "displayName": "Qwen: Qwen3 30B A3B Instruct 2507",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-30b-a3b-thinking-2507",
+    "displayName": "Qwen: Qwen3 30B A3B Thinking 2507",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-32b",
+    "displayName": "Qwen: Qwen3 32B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-8b",
+    "displayName": "Qwen: Qwen3 8B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-coder",
+    "displayName": "Qwen: Qwen3 Coder 480B A35B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-coder-30b-a3b-instruct",
+    "displayName": "Qwen: Qwen3 Coder 30B A3B Instruct",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-coder-flash",
+    "displayName": "Qwen: Qwen3 Coder Flash",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-coder-next",
+    "displayName": "Qwen: Qwen3 Coder Next",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-coder-plus",
+    "displayName": "Qwen: Qwen3 Coder Plus",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-max",
+    "displayName": "Qwen: Qwen3 Max",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-max-thinking",
+    "displayName": "Qwen: Qwen3 Max Thinking",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-next-80b-a3b-instruct",
+    "displayName": "Qwen: Qwen3 Next 80B A3B Instruct",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-next-80b-a3b-thinking",
+    "displayName": "Qwen: Qwen3 Next 80B A3B Thinking",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-235b-a22b-instruct",
+    "displayName": "Qwen: Qwen3 VL 235B A22B Instruct",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-235b-a22b-thinking",
+    "displayName": "Qwen: Qwen3 VL 235B A22B Thinking",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-30b-a3b-instruct",
+    "displayName": "Qwen: Qwen3 VL 30B A3B Instruct",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-30b-a3b-thinking",
+    "displayName": "Qwen: Qwen3 VL 30B A3B Thinking",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-32b-instruct",
+    "displayName": "Qwen: Qwen3 VL 32B Instruct",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-8b-instruct",
+    "displayName": "Qwen: Qwen3 VL 8B Instruct",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-8b-thinking",
+    "displayName": "Qwen: Qwen3 VL 8B Thinking",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-122b-a10b",
+    "displayName": "Qwen: Qwen3.5-122B-A10B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-27b",
+    "displayName": "Qwen: Qwen3.5-27B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-35b-a3b",
+    "displayName": "Qwen: Qwen3.5-35B-A3B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-397b-a17b",
+    "displayName": "Qwen: Qwen3.5 397B A17B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-9b",
+    "displayName": "Qwen: Qwen3.5-9B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-flash-02-23",
+    "displayName": "Qwen: Qwen3.5-Flash",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-plus-02-15",
+    "displayName": "Qwen: Qwen3.5 Plus 2026-02-15",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-plus-20260420",
+    "displayName": "Qwen: Qwen3.5 Plus 2026-04-20",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.6-27b",
+    "displayName": "Qwen: Qwen3.6 27B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.6-35b-a3b",
+    "displayName": "Qwen: Qwen3.6 35B A3B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.6-flash",
+    "displayName": "Qwen: Qwen3.6 Flash",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.6-max-preview",
+    "displayName": "Qwen: Qwen3.6 Max Preview",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.6-plus",
+    "displayName": "Qwen: Qwen3.6 Plus",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.7-flash",
+    "displayName": "Qwen: Qwen3.7 Flash",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.7-max",
+    "displayName": "Qwen: Qwen3.7 Max",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.7-plus",
+    "displayName": "Qwen: Qwen3.7 Plus",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-2.4t-a95b",
+    "displayName": "Qwen: Qwen3.8 2.4T A95B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-27b",
+    "displayName": "Qwen: Qwen3.8 27B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-flash",
+    "displayName": "Qwen: Qwen3.8 Flash",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-max-0902",
+    "displayName": "Qwen: Qwen3.8 Max (0902)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-max-prime",
+    "displayName": "Qwen: Qwen3.8 Max Prime",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-omni-flash",
+    "displayName": "Qwen: Qwen3.8 Omni Flash",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/meta-llama/llama-3.1-70b-instruct",
+    "displayName": "Meta: Llama 3.1 70B Instruct",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/meta-llama/llama-3.1-8b-instruct",
+    "displayName": "Meta: Llama 3.1 8B Instruct",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/meta-llama/llama-3.3-70b-instruct",
+    "displayName": "Meta: Llama 3.3 70B Instruct",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/meta-llama/llama-4-maverick",
+    "displayName": "Meta: Llama 4 Maverick",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/meta-llama/llama-4-scout",
+    "displayName": "Meta: Llama 4 Scout",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/codestral-2508",
+    "displayName": "Mistral: Codestral 2508",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/codestral-2508:batch",
+    "displayName": "Mistral: Codestral 2508 (batch)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/devstral-2512",
+    "displayName": "Mistral: Devstral 2 2512",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/ministral-14b-2512",
+    "displayName": "Mistral: Ministral 3 14B 2512",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/ministral-3b-2512",
+    "displayName": "Mistral: Ministral 3 3B 2512",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/ministral-8b-2512",
+    "displayName": "Mistral: Ministral 3 8B 2512",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/ministral-8b-2512:batch",
+    "displayName": "Mistral: Ministral 3 8B 2512 (batch)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-large",
+    "displayName": "Mistral Large",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-large-2407",
+    "displayName": "Mistral Large 2407",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-large-2512",
+    "displayName": "Mistral: Mistral Large 3 2512",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-large-2512:batch",
+    "displayName": "Mistral: Mistral Large 3 2512 (batch)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-medium-3",
+    "displayName": "Mistral: Mistral Medium 3",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-medium-3-5",
+    "displayName": "Mistral: Mistral Medium 3.5",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-medium-3-5:batch",
+    "displayName": "Mistral: Mistral Medium 3.5 (batch)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-medium-3.1",
+    "displayName": "Mistral: Mistral Medium 3.1",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-medium-3.1:batch",
+    "displayName": "Mistral: Mistral Medium 3.1 (batch)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-nemo",
+    "displayName": "Mistral: Mistral Nemo",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-saba",
+    "displayName": "Mistral: Saba",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-small-2603",
+    "displayName": "Mistral: Mistral Small 4",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-small-2603:batch",
+    "displayName": "Mistral: Mistral Small 4 (batch)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-small-3.1-24b-instruct",
+    "displayName": "Mistral: Mistral Small 3.1 24B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+    "displayName": "Mistral: Mistral Small 3.2 24B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mixtral-8x22b-instruct",
+    "displayName": "Mistral: Mixtral 8x22B Instruct",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/voxtral-small-24b-2507",
+    "displayName": "Mistral: Voxtral Small 24B 2507",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-large-4-0",
+    "displayName": "Mistral: Mistral Large 4",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/google/gemma-3-12b-it",
+    "displayName": "Google: Gemma 3 12B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/google/gemma-3-27b-it",
+    "displayName": "Google: Gemma 3 27B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      }
+    ],
+    "defaultReasoningEffort": "none",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/google/gemma-4-26b-a4b-it",
+    "displayName": "Google: Gemma 4 26B A4B ",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/google/gemma-4-26b-a4b-it:free",
+    "displayName": "Google: Gemma 4 26B A4B  (free)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/google/gemma-4-31b-it",
+    "displayName": "Google: Gemma 4 31B",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/google/gemma-4-31b-it:free",
+    "displayName": "Google: Gemma 4 31B (free)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "No extended thinking"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/openai/gpt-oss-120b",
+    "displayName": "OpenAI: gpt-oss-120b",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/openai/gpt-oss-120b:batch",
+    "displayName": "OpenAI: gpt-oss-120b (batch)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/openai/gpt-oss-20b",
+    "displayName": "OpenAI: gpt-oss-20b",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/openai/gpt-oss-20b:batch",
+    "displayName": "OpenAI: gpt-oss-20b (batch)",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "openrouter/openai/gpt-oss-safeguard-20b",
+    "displayName": "OpenAI: gpt-oss-safeguard-20b",
+    "routeProviderId": "openrouter",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  }
+]

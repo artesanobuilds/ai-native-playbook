@@ -1,0 +1,414 @@
+[
+  {
+    "id": "claude-fable-5-1",
+    "displayName": "Fable 5.1",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      },
+      {
+        "reasoningEffort": "ultracode",
+        "description": "Extra high reasoning effort plus multi-agent workflow orchestration"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "claude-opus-5[1m]",
+    "displayName": "Opus 5 (1M)",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      },
+      {
+        "reasoningEffort": "ultracode",
+        "description": "Extra high reasoning effort plus multi-agent workflow orchestration"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "claude-opus-4-8[1m]",
+    "displayName": "Opus 4.8 (1M)",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      },
+      {
+        "reasoningEffort": "ultracode",
+        "description": "Extra high reasoning effort plus multi-agent workflow orchestration"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "claude-opus-4-7[1m]",
+    "displayName": "Opus 4.7 (1M)",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      },
+      {
+        "reasoningEffort": "ultracode",
+        "description": "Extra high reasoning effort plus multi-agent workflow orchestration"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "claude-sonnet-5",
+    "displayName": "Sonnet 5",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      },
+      {
+        "reasoningEffort": "ultracode",
+        "description": "Extra high reasoning effort plus multi-agent workflow orchestration"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "claude-opus-5-5",
+    "displayName": "Opus 5.5",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      },
+      {
+        "reasoningEffort": "ultracode",
+        "description": "Extra high reasoning effort plus multi-agent workflow orchestration"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": true
+  },
+  {
+    "id": "claude-sonnet-5-5",
+    "displayName": "Sonnet 5.5",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      },
+      {
+        "reasoningEffort": "ultracode",
+        "description": "Extra high reasoning effort plus multi-agent workflow orchestration"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "claude-haiku-4-5-20251001",
+    "displayName": "Haiku 4.5",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "low",
+    "isDefault": false
+  },
+  {
+    "id": "claude-opus-5",
+    "displayName": "Opus 5",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      },
+      {
+        "reasoningEffort": "ultracode",
+        "description": "Extra high reasoning effort plus multi-agent workflow orchestration"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "claude-fable-5",
+    "displayName": "Fable 5",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      },
+      {
+        "reasoningEffort": "ultracode",
+        "description": "Extra high reasoning effort plus multi-agent workflow orchestration"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "claude-opus-4-8",
+    "displayName": "Opus 4.8",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      },
+      {
+        "reasoningEffort": "ultracode",
+        "description": "Extra high reasoning effort plus multi-agent workflow orchestration"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "claude-opus-4-7",
+    "displayName": "Opus 4.7",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Extra high reasoning effort"
+      },
+      {
+        "reasoningEffort": "ultracode",
+        "description": "Extra high reasoning effort plus multi-agent workflow orchestration"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "claude-opus-4-6",
+    "displayName": "Opus 4.6",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  },
+  {
+    "id": "claude-sonnet-4-6",
+    "displayName": "Sonnet 4.6",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Low reasoning effort"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Medium reasoning effort"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "High reasoning effort"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Maximum reasoning effort"
+      }
+    ],
+    "defaultReasoningEffort": "high",
+    "isDefault": false
+  }
+]

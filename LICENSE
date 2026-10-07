@@ -1,0 +1,10 @@
+Original documentation and templates in this repository:
+Copyright (c) 2026 Miguel Alvarado.
+
+Permission is granted to use, copy, modify and distribute the original documentation
+and templates, including commercially, provided this notice is retained.
+They are provided AS IS, without warranty of any kind.
+
+Third-party code and notices retain their existing licenses. See
+THIRD-PARTY-NOTICES.md and the notices within payload/. This notice does not
+relicense vendor software, dependencies or model weights.

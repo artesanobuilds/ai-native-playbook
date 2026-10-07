@@ -1,0 +1,8 @@
+{
+  "name": "ai-native-pi",
+  "private": true,
+  "description": "Repo-local install of the Pi coding agent for bb (see docs/adr).",
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "^1.0.4"
+  }
+}

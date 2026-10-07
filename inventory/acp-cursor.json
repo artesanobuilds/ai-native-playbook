@@ -1,0 +1,146 @@
+[
+  {
+    "id": "default",
+    "displayName": "Auto",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "medium",
+        "description": "Auto  (default)"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": true
+  },
+  {
+    "id": "grok-4.6",
+    "displayName": "Grok 4.6",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "low",
+        "description": "Grok 4.6 Low"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Grok 4.6 Medium"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "Grok 4.6"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Grok 4.6 Extra High"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "gpt-5.6-sol",
+    "displayName": "GPT-5.6 Sol",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "GPT-5.6 Sol 1M None"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "GPT-5.6 Sol 1M Low"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "GPT-5.6 Sol 1M"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "GPT-5.6 Sol 1M High"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "GPT-5.6 Sol 1M Extra High"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "GPT-5.6 Sol 1M Max"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "claude-opus-5",
+    "displayName": "Claude Opus 5",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "Claude Opus 5 1M Low"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Claude Opus 5 1M Low Thinking"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Claude Opus 5 1M Medium Thinking"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "Claude Opus 5 1M Thinking"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Claude Opus 5 1M Extra High Thinking"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Claude Opus 5 1M Max Thinking"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "claude-fable-5",
+    "displayName": "Claude Fable 5",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "none",
+        "description": "Claude Fable 5 1M Low (NO ZDR)"
+      },
+      {
+        "reasoningEffort": "low",
+        "description": "Claude Fable 5 1M Low Thinking (NO ZDR)"
+      },
+      {
+        "reasoningEffort": "medium",
+        "description": "Claude Fable 5 1M Medium Thinking (NO ZDR)"
+      },
+      {
+        "reasoningEffort": "high",
+        "description": "Claude Fable 5 1M Thinking (NO ZDR)"
+      },
+      {
+        "reasoningEffort": "xhigh",
+        "description": "Claude Fable 5 1M Extra High Thinking (NO ZDR)"
+      },
+      {
+        "reasoningEffort": "max",
+        "description": "Claude Fable 5 1M Max Thinking (NO ZDR)"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  },
+  {
+    "id": "composer-2.5",
+    "displayName": "Composer 2.5",
+    "supportedReasoningEfforts": [
+      {
+        "reasoningEffort": "medium",
+        "description": "Composer 2.5"
+      }
+    ],
+    "defaultReasoningEffort": "medium",
+    "isDefault": false
+  }
+]

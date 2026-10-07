@@ -1,0 +1,33 @@
+/* Document typography for the Word view and grid styling for spreadsheets.
+   Colors come from the host theme variables so custom palettes keep working. */
+.office-doc { color: var(--foreground); font-size: 0.9375rem; line-height: 1.6; }
+.office-doc h1, .office-doc h2, .office-doc h3, .office-doc h4 { font-weight: 600; line-height: 1.25; margin: 1.4em 0 0.5em; }
+.office-doc h1 { font-size: 1.6rem; }
+.office-doc h1.doc-title { font-size: 2rem; margin-top: 0.2em; }
+.office-doc p.doc-subtitle { color: var(--muted-foreground); font-size: 1.1rem; margin-top: -0.4em; }
+.office-doc h2 { font-size: 1.3rem; }
+.office-doc h3 { font-size: 1.1rem; }
+.office-doc h4 { font-size: 1rem; }
+.office-doc p { margin: 0 0 0.8em; }
+.office-doc ul, .office-doc ol { margin: 0 0 0.8em; padding-left: 1.5em; }
+.office-doc ul { list-style: disc; }
+.office-doc ol { list-style: decimal; }
+.office-doc li { margin: 0.2em 0; }
+.office-doc blockquote { border-left: 3px solid var(--border); color: var(--muted-foreground); margin: 0.8em 0; padding: 0.2em 0 0.2em 1em; }
+.office-doc a { color: var(--primary, var(--foreground)); text-decoration: underline; }
+.office-doc img { max-width: 100%; height: auto; border-radius: 0.375rem; margin: 0.5em 0; }
+.office-doc table { border-collapse: collapse; margin: 0.8em 0; width: 100%; }
+.office-doc th, .office-doc td { border: 1px solid var(--border); padding: 0.35em 0.6em; text-align: left; vertical-align: top; }
+.office-doc th { background: var(--muted, transparent); font-weight: 600; }
+.office-doc pre, .office-doc code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.875em; }
+.office-doc pre { background: var(--muted, transparent); border: 1px solid var(--border); border-radius: 0.375rem; overflow-x: auto; padding: 0.6em 0.8em; }
+
+.office-table { border-collapse: collapse; }
+.office-table td { border: 1px solid var(--border); padding: 0.3em 0.6em; vertical-align: top; }
+
+.office-grid { border-collapse: separate; border-spacing: 0; font-variant-numeric: tabular-nums; }
+.office-grid th, .office-grid td { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); max-width: 28rem; overflow: hidden; padding: 0.25rem 0.5rem; text-overflow: ellipsis; white-space: nowrap; vertical-align: top; }
+.office-grid thead th { background: var(--card); color: var(--muted-foreground); font-weight: 500; position: sticky; top: 0; text-align: center; z-index: 2; }
+.office-grid .office-grid-rownum { background: var(--card); color: var(--muted-foreground); font-weight: 500; left: 0; position: sticky; text-align: right; z-index: 1; }
+.office-grid .office-grid-corner { left: 0; z-index: 3; }
+.office-grid td { color: var(--foreground); }
