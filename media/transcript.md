@@ -1,43 +1,43 @@
-> Original narration, preserved for accessibility. Read [the corrections](README.md#corrections-to-the-original-narration), especially the historical model tally and guard-coverage claims.
+# Updated setup walkthrough transcript
 
-# My bb setup in two minutes
+Synthetic Kokoro narration, revised October 7, 2026. Approximately two minutes.
 
-## My agent control room
+## My AI workspace
 
-I run a small fleet of AI coding agents from a single browser tab. This is my bb setup: how I built it, how I use it, and why it is worth it.
+I recommend trying bb if you work with coding agents. It gives me one workspace for projects, threads, and different ways to tackle a task.
 
-## Four harnesses, 169 models
+## 4 harnesses. 137 choices.
 
-bb is a control room for coding agents. A project is a repo. A thread is one agent on one task. Each thread picks one of four harnesses: Claude Code, Codex, Cursor, or Pi. And one of one hundred sixty nine models, from Opus and GPT to DeepSeek and Grok. All in one project, with shared context.
+My snapshot has four coding harnesses: Claude Code, Codex, Pi, and Cursor. After removing overlaps and variants, the catalog has one hundred thirty seven model choices. Access depends on provider accounts, quotas, and billing.
 
-## Shared or isolated?
+## More than coding
 
-Someone on X asked: do the agents share a worktree, or does bb isolate their edits? Both, and I choose per thread. An environment is either the shared checkout or an isolated worktree on its own branch. A coder and a reviewer can share one. Isolated threads get a branch, and bb merges when I say so.
+I use agents for coding and reviews, research, documents, spreadsheets, and narrated videos. Separately, William, Mika, and specialist agents help with ongoing tasks and follow through.
 
-## How I set it up
+## Choose the workspace
 
-Everything lives in one folder: Coding, AI-native. bb, Codex, Pi, skills, hooks, plugins, docs. Nothing global. bb runs on my Claude Max subscription, and my API key is hidden from every agent shell.
+I choose a shared checkout or an isolated worktree for each thread. Conversations stay separate. Shared files, instructions, and handoff documents carry context between agents.
 
-## Guardrails first
+## Move projects to BB
 
-Before any agent got autonomy, I installed one guard hook. It blocks recursive deletes, force pushes, and curl piped to shell, across every harness. Three hundred and two tests pass.
+I migrated all my Claude Code projects to bb using the move to bb skill. It saves durable instructions and a focused handoff so a new thread can pick up the work.
 
-## Skills I actually use
+## Make it your own
 
-Repeatable work is a skill. Total review runs a Fable and a GPT reviewer side by side and merges the findings. Ask then build interviews me before code. ADR verbatim records a decision in my words.
+bb is highly customizable. I asked for a file viewer, then built an Office Preview plugin. File browsing and downloads help me use the workspace remotely, too.
 
-## My daily loop
+## Reach it from my phone
 
-I start in Claude Code in the terminal. When a task outgrows one session, I say: move this to bb. Rules go to the agents file, state to a handoff doc, and a bb thread picks it up cold.
+Tailscale connects my phone and other computer to the workspace on my Mac. Serve forwards privately to bb. There is no public Funnel, and the Mac needs to stay awake.
 
-## From my phone
+## Rebuild with your agent
 
-Remote access is Tailscale: my phone and laptop share a private tailnet, and Tailscale Serve exposes bb to that tailnet only. Never the LAN, never public.
+The public playbook includes a setup recipe, skills, plugins, and guardrails. It favors local installs, with documented machine exceptions. Bring your own logins, and check guard enforcement in each harness.
 
-## Why it is worth it
+## Next: my own evals
 
-Parallel agents, no lost context. Every decision has an ADR. Files preview and download on my phone. And one zip rebuilds the whole setup on another machine.
+Next I want my own evaluations: which harness, with which model, works best for each problem? That work is still ahead. The freedom to experiment is why I like this setup.
 
-## What is next
+## Try the playbook
 
-Next: Herdr, a VPS, and agents that keep running when my laptop sleeps. The playbook is in the repo. Follow along.
+David Ondrej’s agentic engineering workflow video inspired this. I published my setup so you can build your own version. Start with the guide, and adapt it to how you work.

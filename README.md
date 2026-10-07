@@ -15,7 +15,7 @@ The useful part is the loop: turn a request into an artifact, inspect the result
 
 ## Listen to the walkthrough
 
-[Play the 2-minute MP3](https://raw.githubusercontent.com/artesanobuilds/ai-native-playbook/0ac62145bc002421ba15f8318a11091abb2a007c/media/my-bb-setup.mp3) from my short-form setup video, or read [the transcript and recording notes](media/README.md). The original narration uses an older raw model tally and simplified setup claims; the notes explain the corrections. The current audited catalog has 137 model choices.
+[Play the 2-minute MP3](https://raw.githubusercontent.com/artesanobuilds/ai-native-playbook/main/media/my-bb-setup.mp3) from my short-form setup video, or read [the transcript and recording notes](media/README.md). The updated narration covers 137 deduplicated model choices, migration, customization, Tailscale, and planned evals.
 
 ## Start here
 

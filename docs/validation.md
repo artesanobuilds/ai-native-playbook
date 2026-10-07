@@ -7,7 +7,7 @@ Date: 2026-10-07
 - Public preflight: passed common credential-pattern, private-path and first-party Markdown link checks. Windows fixture paths in the vendored Files plugin were inspected and retained as generic test data.
 - Included video demo: rendered locally using the source machine’s existing Kokoro environment; ffprobe confirms a 1280×720 video stream, an audio stream and 4.565-second duration. Title-card image visually inspected. This validates the example on this host, not fresh dependency installation or end-to-end listening.
 - Tailscale documentation: live configuration inspected read-only; local BB and existing Serve hostname both returned HTTP 200 from the host. No route changes or second-device browser test.
-- Published walkthrough MP3: audio extracted from the existing short-form MP4, source metadata stripped, 136.392 seconds, stereo 48 kHz. FFmpeg decoded the entire MP3 without errors. Historical narration corrections are documented alongside the audio.
+- Updated walkthrough MP3: revised narration extracted from the new vertical MP4, 119.832 seconds, stereo 48 kHz, 160 kb/s. The corrections are incorporated into the narration and transcript.
 - Live model discovery: four providers, 168 catalog entries, including 144 Pi routes.
 - Model-count audit: 137 choices after removing one selector and 30 duplicate/variant entries. Script verifies input accounting, cross-harness overlaps and preservation of distinct dated releases. See model-count.md for grouping rules.
 - Office fixture privacy check: inspected XML contents and metadata inside the bundled DOCX/PPTX/XLSX files; contents are generic parser fixtures.
@@ -17,4 +17,4 @@ The first guard run failed because ZIP extraction had not preserved executable b
 
 Not performed: a clean-machine package installation, new account logins, inference against every catalog model, per-harness runtime guard invocation, a full re-render of historical videos, remote-client download testing, or Herdr/VPS deployment. These remain destination-machine checks in the setup report.
 
-The published MP3 was fetched anonymously from its commit-pinned GitHub raw URL: HTTP 200, `audio/mpeg`, 2,728,599 bytes, SHA-256 `2cb0369a74596d262124ecc9bbc9e4d8f5f0430a95ac435d5b7f1d3afcaeb634`, matching the local artifact. This verifies delivery and MIME type; interactive playback was not tested in a remote browser.
+The previous recording was verified by anonymous download before this revision. Delivery verification for the revised artifact is recorded below.
