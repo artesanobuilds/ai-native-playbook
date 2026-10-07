@@ -28,6 +28,8 @@ Put stable rules in AGENTS.md, a consequential decision in a new ADR, and curren
 
 ## Terminal to BB
 
+I migrated all my Claude Code projects to BB using the `move-to-bb` skill. See [the migration guide and included source](moving-to-bb.md).
+
 The included `payload/claude-code/move-to-bb` source packages this transition. Read its installer first. For an isolated Claude profile, pass `CLAUDE_HOME="$CLAUDE_CONFIG_DIR"` to the installer; its default is the existing home profile. Inspect existing symlinks before running it because it can relink them.
 
 The handoff should name the goal, relevant files, changes, checks, open decisions and next action. The receiving BB agent must verify current files rather than trusting stale prose. Do not paste a whole private transcript into a public handoff.

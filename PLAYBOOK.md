@@ -33,6 +33,8 @@ For each harness, run its version command and a tiny read-only task after login.
 
 ## 4. BB as the main interface
 
+BB is highly customizable. My request for a file viewer and left-side file browsing led to the Office Preview and Files integrations below. See `docs/customizing-bb.md` in the source repo for that example.
+
 Start using `bb/bb.sh`; open http://localhost:38886. Check for an existing server/port conflict first and preserve it. Run `bb status`, `bb guide`, and relevant `--help` before mutations. Create or reuse an AI-native project pointing at this root using the installed CLI's documented project commands. Add real repositories only when the user identifies them.
 
 Run `bb skill install-cli-skills` after checking help. Discover providers and models in the actual target environment. Confirm Claude, Codex and Pi resolve to the new wrappers (and Cursor once installed). Run one small read-only BB task on each authenticated provider. BB data must remain in `bb/data`; never copy this computer's BB database. Keep BB on localhost; any remote access is a separate authenticated/private-network configuration.
@@ -40,6 +42,8 @@ Run `bb skill install-cli-skills` after checking help. Discover providers and mo
 For Office Preview, from `plugins/bb-plugin-office-preview` run `npm ci --include=dev`, `npm test`, and `npm run typecheck`. With env.sh sourced, use the installed `bb plugin build` / `bb plugin install .` help to build and register it. Verify registration, then open the bundled synthetic sample.docx, sample.pptx and sample.xlsx files inside BB. These are generic test fixtures, not personal documents. Markdown/PDF use BB's own viewers. For remote downloads, install the included `plugins/bb-plugin-files-downloads` local Files fork: run `npm ci --include=dev`, `npm run typecheck`, `npm test`, and `bb plugin build` with env.sh sourced, then install that directory using `bb plugin install`. If the marketplace `files-editor` is active, preserve its settings and disable it first (do not remove it); both claim `bb files`. The fork adds Download for every saved workspace file and a download panel for archive links. Its SDK dependency is pinned; validate against the installed BB version. Merge `docs/rules/remote-downloads.md` into `bb instructions get/set`, preserving other instructions. Verify a downloaded ZIP checksum through the actual browser-facing BB origin. Roll back by disabling `files-downloads` and re-enabling `files-editor`. Plugin source is included, compiled output is not.
 
 ## 5. Skills, project readiness and daily workflow
+
+I migrated all my Claude Code projects to BB with the included `move-to-bb` skill. See `docs/moving-to-bb.md` in the source repo for the procedure and links to the skill, installer and rule. The bootstrap stages its source under `claude-code/move-to-bb/`.
 
 Included: ask-then-build; adr-verbatim; decisions; handoff; git-worktree; launch-subagent; total-review; fable-review; gpt-review; global-agent-guardrails; herdr; create-readonly-db-role. The original David Ondrej license is included. These are historical source skills: adapt model IDs and command dependencies deliberately before using them. BB CLI skills come from the installed BB version, not a frozen copy of this machine's runtime.
 

@@ -29,3 +29,7 @@ The source setup keeps BB state under `bb/data`, local Codex and Pi installs und
 Durable memory is ordinary files with a purpose: AGENTS.md for rules, ADRs for decisions, handoffs for session state, run reports for recurring work. An assistant should read the relevant files when it resumes. A bigger context window does not replace this discipline.
 
 Herdr is an optional terminal-orchestration layer. It is not required for BB and was not verified as installed during this snapshot. A VPS is a later deployment location, not a capability granted by opening the laptop remotely.
+
+## Customize the workspace itself
+
+BB is highly customizable through plugins. In this setup, a request for a file viewer led to Office Preview and file browsing; subsequent work added downloads. See [the customization example](customizing-bb.md) for the request, implementation and follow-up refinements.

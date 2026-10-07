@@ -21,10 +21,18 @@ Clone this repo inside your chosen tools folder, open it with your coding agent,
 
 See [START-HERE](START-HERE.md) for commands and [PLAYBOOK](PLAYBOOK.md) for the complete sequence. The bootstrap stages an isolated setup and installs the core CLIs; an agent completes login-dependent integrations. This is not a signed-in machine image.
 
+## Make the workspace your own
+
+**BB is highly customizable.** I asked an agent for a file viewer and left-side file browsing, and we extended the setup with Office previews and, later, downloads through BB’s existing connection. [See the file-viewer example and included plugin source](docs/customizing-bb.md).
+
+**I migrated all my Claude Code projects to BB using the `move-to-bb` skill.** It captures durable project context, writes a handoff and starts a BB thread that can continue the work. [The skill, installer and migration guide are included](docs/moving-to-bb.md).
+
 ## What is here
 
 | Read | Purpose |
 | --- | --- |
+| [Customizing BB](docs/customizing-bb.md) | The file-viewer request that became a working extension |
+| [Moving projects to BB](docs/moving-to-bb.md) | How I migrated my Claude Code projects with the included skill |
 | [Architecture](docs/architecture.md) | How BB, harnesses, models, tools and memory fit together |
 | [Machine snapshot](docs/machine-snapshot.md) | Observed versions, plugins, exceptions and unfinished work |
 | [Models and deduplication](docs/model-count.md) | 137 model choices, mapped back to all 168 catalog entries |

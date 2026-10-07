@@ -15,6 +15,8 @@ All files in those two discovered archives were scanned programmatically. Select
 | Four harnesses exposed by BB | Provider list and per-provider catalogs | Availability is not successful inference |
 | 137 model choices after deduplication | Four saved catalogs, explicit grouping script and public provider descriptions | Counting convention groups speed variants; proprietary weights not audited |
 | Pi exposes 144 entries here | Saved sanitized catalog: 140 OpenRouter, four xAI | Routes, aliases and variants can overlap |
+| All Claude Code projects migrated using move-to-bb | Miguel’s explicit account of his migration | Owner-reported scope; not an independent project-by-project audit |
+| BB file-viewer customization | Original request and follow-up thread, setup ADR and included plugin source | Current plugin state differs from the first iteration |
 | Terminal → handoff → BB workflow | Included move-to-bb source and local handoff prompts | Target host still needs working integration |
 | Coding and migration work | Selected local user prompts and handoffs | Generalized; private repository content excluded |
 | Videos are part of actual use | Narration/render/timing/caption sources and saved MP4s | Source artifacts were not all re-rendered here |
