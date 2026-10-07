@@ -16,3 +16,5 @@ Date: 2026-10-07
 The first guard run failed because ZIP extraction had not preserved executable bits on shell scripts. Executable modes were restored before rerunning. The suite checks command classification and does not execute the destructive strings used as test inputs.
 
 Not performed: a clean-machine package installation, new account logins, inference against every catalog model, per-harness runtime guard invocation, a full re-render of historical videos, remote-client download testing, or Herdr/VPS deployment. These remain destination-machine checks in the setup report.
+
+The published MP3 was fetched anonymously from its commit-pinned GitHub raw URL: HTTP 200, `audio/mpeg`, 2,728,599 bytes, SHA-256 `2cb0369a74596d262124ecc9bbc9e4d8f5f0430a95ac435d5b7f1d3afcaeb634`, matching the local artifact. This verifies delivery and MIME type; interactive playback was not tested in a remote browser.

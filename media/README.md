@@ -1,6 +1,6 @@
 # Listen to the setup walkthrough
 
-[Open the MP3](https://raw.githubusercontent.com/artesanobuilds/ai-native-playbook/main/media/my-bb-setup.mp3) · [MP3 in the repo](my-bb-setup.mp3) · [Transcript](transcript.md)
+[Open the MP3](https://raw.githubusercontent.com/artesanobuilds/ai-native-playbook/0ac62145bc002421ba15f8318a11091abb2a007c/media/my-bb-setup.mp3) · [MP3 in the repo](my-bb-setup.mp3) · [Transcript](transcript.md)
 
 **2 minutes 16 seconds.** This is the audio from the “Describe short-form video” thread in the AI-native project, covering the control room, harnesses, worktrees, skills, handoffs, Tailscale access and the next steps. The saved original was an MP4; this MP3 was extracted from its audio track for easy listening.
 
